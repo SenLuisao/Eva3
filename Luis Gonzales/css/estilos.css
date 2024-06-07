@@ -1,0 +1,61 @@
+
+body{
+    background-color: lightgray;
+}
+
+
+.miContenedor{
+    width:75%;
+    margin-top: 10px;
+    border:5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #faf9f9;
+}
+
+
+h1, h2{
+    text-align: center;
+}
+
+
+label{
+    font-size: 20px;
+}
+
+
+.misBotones{
+    width:100%;
+    font-weight: bold;
+    font-size:20px;
+}
+
+
+th, td{
+    font-size: 16px;
+    text-align: center;
+}
+
+#miContenedor2{
+    width:100%;
+    overflow: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
